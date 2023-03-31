@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+h1{
+    @apply text-lg font-bold md:text-xl lg:text-2xl xl:text-xl;
+}
+h2{
+    @apply text-lg;
+}
+p{
+    @apply sm:h-[140px] md:h-[160px] 2xl:h-[180px] md:text-lg lg:text-lg xl:text-xl 2xl:text-xl;
+}
+*{
+    box-sizing: border-box;
+}
+.item1{
+    @apply sm:w-[250px]  md:w-[310px] lg:w-[440px]  xl:w-[500px] 2xl:w-[350px];
+}
+.item2{
+    @apply max-w-[440px]  sm:max-w-[230px]  md:max-w-[320px] lg:max-w-[420px] xl:max-w-[490px] 2xl:max-w-[320px];
+}
